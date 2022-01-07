@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "armor-stand-interpolation",
+  "version": "${version}",
+  "name": "Armor Stand Interpolation",
+  "description": "Standalone implementation of the Origins Enhanced armor stand interpolation.",
+  "authors": [
+    "Jackson"
+  ],
+  "contact": {},
+  "license": "GPLv3",
+  "environment": "client",
+  "mixins": [
+    "armor-stand-interpolation.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.18.x"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.jaackson.armorstandinterpolation.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ArmorStandMixin"
+  ],
+  "client": [
+    "ArmorStandArmorModelMixin",
+    "ArmorStandModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
