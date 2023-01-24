@@ -3,7 +3,7 @@
   "id": "armor-stand-interpolation",
   "version": "${version}",
   "name": "Armor Stand Interpolation",
-  "description": "Standalone implementation of the Origins Enhanced armor stand interpolation.",
+  "description": "Interpolates armor stand rotations for smooth animations",
   "authors": [
     "Jackson"
   ],
@@ -14,6 +14,6 @@
     "armor-stand-interpolation.mixins.json"
   ],
   "depends": {
-    "minecraft": "1.18.x"
+    "minecraft": ">=1.19.3"
   }
 }
